@@ -1,0 +1,22 @@
+﻿@model MvcPersonel.Models.Personel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>simplepage</title>
+</head>
+<body>
+    <div>
+        Merhaba @Model.PersonelName
+        <br />
+        Your Id @Model.PersonelId
+        <br />
+        <button onclick="window.location='/'">Click For Index</button>
+    </div>
+</body>
+</html>
